@@ -1,0 +1,266 @@
+nav .logo img {
+	padding-top: 1em;
+}
+
+.col-3{
+	width: 40%;	
+}
+.col-9 {
+	width: 60%;
+	padding-top: 4%;
+}
+.first-content{
+	padding: 0;
+	padding-top: 5%;
+}
+
+.nav-1{
+	background: rgba(245, 245, 245, 0.23);
+}
+.container-fluid h3{
+	text-align: center;
+	
+
+}
+nav .logo{
+	background-color: #e8e8e8;
+	margin-top: 0px;
+}
+.slides .slide .content{
+	background: rgba(245, 245, 245, 0.23);
+}
+
+.second-content .left-content{
+	text-align: justify;
+}
+.second-content .right-image img{
+	height: 530px;
+}
+
+.carousel-inner{
+	height: 400px;
+}
+.second-content p{
+	margin: 5%;
+}
+
+.carousel-indicators{
+	bottom: 0px;
+}
+.carousel-control.left{
+	margin-left: -10%;
+}
+.carousel-control.right{
+	margin-right: -10%;
+}
+
+.third-content h2{
+	font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.third-content .item-4{
+	margin-left: 0px
+}
+
+.third-content .item-2{
+	width: 80%;
+    margin-left: 0%;
+}
+
+.third-content .item-3{
+	width: 75%;
+    margin-left: 80px;
+    margin-top: -40%;
+}
+    
+
+.team {
+  color: white;
+  letter-spacing: 0px;
+  text-indent: 0px;
+}
+.team-text {
+  color: #333;
+}
+.team-text-para {
+  display: block;
+  margin: 20px auto;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+.team-section {
+  margin-top: 0px;
+  padding: 15px;
+}
+.team-image {
+  background-color: rgba(207, 72, 172, 0.68);
+}
+.team-img {
+  display: block;
+  width: auto;
+  height: auto;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 50%;
+}
+
+
+.team-section:hover{
+
+	animation-name: expandOpen;
+
+	-webkit-animation-name: expandOpen;	
+
+
+
+	animation-duration: 1.2s;	
+
+	-webkit-animation-duration: 1.2s;
+
+
+
+	animation-timing-function: ease-out;	
+
+	-webkit-animation-timing-function: ease-out;	
+
+
+
+	visibility: visible !important;	
+
+}
+
+.team-des {
+  background-color: white;
+  padding: 10%;
+}
+
+.team-name {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 25px 5px 10px;
+  color: #888;
+  text-align: center;
+}
+.team-name-des {
+  padding-top: 0px;
+  padding-bottom: 25px;
+  text-align: center;
+      color: #e02828;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.team-image h2{
+	text-align: center;
+    font-family: Vladimir Script;
+    padding: 10%;
+    margin-top: 20px;
+    text-transform: none;
+    font-weight: normal;
+    font-size: 60px;
+    border-bottom: none;
+    margin-bottom: 0px;
+}
+.team-social {
+  background-color: rgba(207, 72, 172, 0.68);
+  padding: 8%;
+}
+.team-social .social-section {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 25px;
+}
+
+.team-social .social-section .social {
+  
+  text-align: center;
+  width: 23%;
+
+}
+.team-name1{
+	padding-top: 40px;
+}
+
+.team-name-des1{
+	padding-bottom: 30px;
+}
+
+input[type=checkbox]:checked+label
+
+.work-request--options{
+	display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+
+}
+ 
+    
+.work-request--options .options-a{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;	
+    }
+      
+
+.work-request--options .options-b{
+    display: flex;
+   
+    }
+      
+.work-request--options .options-a label, .work-request--options .options-b label{
+	 display: block;
+      width: 200px;
+      margin-bottom: 30px;
+      line-height: 50px;
+      font-size: 16px;
+      font-weight: 700;
+      text-align: center;
+      border: 1px solid rgba(255, 255, 255, 0.5294117647058824);
+      cursor: pointer;
+      transition: background-color .2s ease-in-out, border-color .2s ease-in-out;
+
+}
+   .work-request--options .options-a label svg,  .work-request--options .options-b label svg {
+   		position: relative;
+        left: -5px;
+        width: 0;
+        fill: white;
+        transition: width .2s ease-in-out;
+   }
+
+   .work-request--options .options-a input, 
+   .work-request--options .options-b input {
+   		display: none;
+   }
+	
+	.work-request--options .options-a input[type=checkbox]:checked+label , .work-request--options .options-b input[type=checkbox]:checked+ label {
+		background-color: rgba(15, 51, 255, 0.43);
+        border-color: #0f33ff;
+	}
+
+	.work-request--options .options-a input[type=checkbox]:checked+label svg, .work-request--options .options-b input[type=checkbox]:checked+label svg {
+		width: 15px;
+	}
+
+	.work-request--options svg {
+		width: 15px;
+	}
